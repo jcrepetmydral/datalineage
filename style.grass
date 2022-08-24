@@ -1,0 +1,57 @@
+node {
+  diameter: 50px;
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  border-width: 2px;
+  text-color-internal: #FFFFFF;
+  font-size: 5px;
+  caption: "{labels}";
+}
+relationship {
+  color: #A5ABB6;
+  shaft-width: 1px;
+  font-size: 8px;
+  padding: 3px;
+  text-color-external: #000000;
+  text-color-internal: #FFFFFF;
+  caption: "<type>";
+}
+node.0 {
+  diameter: 50px;
+  color: #8DCC93;
+  border-color: #5db665;
+  text-color-internal: #2A2C34;
+  defaultCaption: "<id>";
+}
+node.1 {
+  diameter: 100px;
+  color: #ECB5C9;
+  border-color: #da7298;
+  text-color-internal: #2A2C34;
+  defaultCaption: "<id>";
+}
+node.database_schema {
+  color: #bab0ac;
+  defaultCaption: "<id>";
+  caption: "{label}";
+}
+node.excel_workbook_uuid {
+  color: #59a14f;
+  defaultCaption: "<id>";
+  caption: "{label}";
+}
+node.repository_uuid {
+  color: #e15759;
+  defaultCaption: "<id>";
+  caption: "{label}";
+}
+node.tableau_workbook_uuid {
+  color: #4e79a7;
+  defaultCaption: "<id>";
+  caption: "{label}";
+}
+node.workflow_uuid {
+  color: #FFD700;
+  defaultCaption: "<id>";
+  caption: "{label}";
+}
